@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+*.venv/
+
+# Django stuff
+*.log
+db.sqlite3
+*.sqlite3
+*.pot
+*.pyc
+*.mo
+
+# Ignore migrations except __init__.py
+*/migrations/*
+!*/migrations/__init__.py
+
+# Static and media files
+staticfiles/
+media/
+
+# Dataset / ML files
+dataset/preprocessed/
+dataset/sentiment/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
