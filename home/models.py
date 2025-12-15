@@ -30,7 +30,7 @@ class SentimentDataset(models.Model):
     generated_at=models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"preprocessed dataset ({self.generated_at.strftime('%d/%m/%Y %H:%M:%S')})"
+        return f"Sentiment dataset ({self.generated_at.strftime('%d/%m/%Y %H:%M:%S')})"
 
 @receiver(post_delete, sender=SentimentDataset)
 def delete_file_on_delete(sender, instance, **kwargs):
