@@ -131,3 +131,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
+
+# cors allocation
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",   # CRA
+    "http://localhost:5173",   # Vite
+]
